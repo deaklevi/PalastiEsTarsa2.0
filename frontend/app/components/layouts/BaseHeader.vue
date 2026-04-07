@@ -20,7 +20,7 @@ const toggleMenu = () => {
                 <ul class="lg:flex hidden space-x-6 text-sm font-medium">
                     <li><NuxtLink to="/" class="hover:text-orange-500 transition">Főoldal</NuxtLink></li>
                     <li><NuxtLink to="/sirko" class="hover:text-orange-500 transition">Sírkő</NuxtLink></li>
-                    <li><NuxtLink to="/" class="hover:text-orange-500 transition">Építészet</NuxtLink></li>
+                    <li><NuxtLink to="/epiteszet" class="hover:text-orange-500 transition">Építészet</NuxtLink></li>
                     <li><NuxtLink to="/" class="hover:text-orange-500 transition">Szolgáltatások</NuxtLink></li>
                     <li><NuxtLink to="/" class="hover:text-orange-500 transition">Kő anyagminták</NuxtLink></li>
                     <li><NuxtLink to="/" class="hover:text-orange-500 transition">Kapcsolat</NuxtLink></li>
@@ -60,7 +60,7 @@ const toggleMenu = () => {
                 <div v-if="isMenuOpen" class="fixed inset-0 bg-[#0D0E0E] flex flex-col items-center justify-center space-y-8 text-xl z-40 lg:hidden">
                     <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Főoldal</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/sirko" class="hover:text-orange-500">Sírkő</NuxtLink>
-                    <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Építészet</NuxtLink>
+                    <NuxtLink @click="isMenuOpen = false" to="/epiteszet" class="hover:text-orange-500">Építészet</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Szolgáltatások</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Kő anyagminták</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Kapcsolat</NuxtLink>

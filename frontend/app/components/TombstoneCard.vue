@@ -65,7 +65,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center mx-5 md:mx-12 mb-24 md:mb-52">
+  <div class="flex flex-col items-center">
     <div v-if="loading" class="mt-10 text-gray-500 italic animate-pulse text-sm">Adatok betöltése...</div>
     <div v-else-if="error" class="mt-10 text-red-500">Hiba történt a szerverrel való kapcsolat során.</div>
     <div v-else-if="filteredTombstones.length === 0" class="mt-10 text-gray-400 italic">Ebben a kategóriában jelenleg nincsenek feltöltött képek.</div>

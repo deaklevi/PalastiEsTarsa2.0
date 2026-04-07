@@ -18,7 +18,7 @@ useSeoMeta({
                <Card image-src="/sirko/szimpla-sirko.jpg" title="Szimpla sírkő" link="/sirko/szimpla-sirko"/>
                <Card image-src="/sirko/dupla-sirko.jpg" title="Dupla sírkő" link="/sirko/dupla-sirko"/>
                <Card image-src="/sirko/kripta.jpg" title="Kripta sírkő" link="/sirko/kripta"/>
-               <Card image-src="/sirko/akcios-sirko.jpg" title="Akcios sírkő" link="/sirko"/>
+               <Card image-src="/sirko/akcios-sirko.jpg" title="Akcios sírkő" link="/sirko/akcios-sirko"/>
                <Card image-src="/sirko/marvany-sirko.jpg" title="Márvány sírkő" link="/sirko"/>
                <Card image-src="/sirko/meszko-sirko.jpg" title="Mészkő sírkő" link="/sirko"/>
                <Card image-src="/sirko/kulonleges-sirko.jpg" title="Különleges sírkő" link="/sirko"/>

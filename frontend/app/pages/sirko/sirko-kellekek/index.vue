@@ -15,9 +15,9 @@ useSeoMeta({
           
           <div class="flex flex-wrap gap-4 justify-center mt-5">
                <Card image-src="/sirko/sirko-kellekek/ko-vaza.jpg" title="Kő váza" link="/sirko/sirko-kellekek/ko-vaza" />
-               <Card image-src="/sirko/sirko-kellekek/ko-mecsestarto.jpg" title="Kő mécsestartó" link="/sirko" />
-               <Card image-src="/sirko/sirko-kellekek/ko-viragtarto.jpg" title="Kő virágtartó" link="/sirko" />
-               <Card image-src="/sirko/sirko-kellekek/bronz-sirko-kellekek.jpg" title="Bronz sírkő kellékek" link="/sirko" />
+               <Card image-src="/sirko/sirko-kellekek/ko-mecsestarto.jpg" title="Kő mécsestartó" link="/sirko/sirko-kellekek/ko-mecsestarto" />
+               <Card image-src="/sirko/sirko-kellekek/ko-viragtarto.jpg" title="Kő virágtartó" link="/sirko/sirko-kellekek/ko-viragtarto" />
+               <Card image-src="/sirko/sirko-kellekek/bronz-sirko-kellekek.jpg" title="Bronz sírkő kellékek" link="/sirko/sirko-kellekek/bronz-sirko-kellekek" />
                <Card image-src="/sirko/sirko-kellekek/sirfelirat.jpg" title="Sírfelirat" link="/sirko" />
           </div>
 

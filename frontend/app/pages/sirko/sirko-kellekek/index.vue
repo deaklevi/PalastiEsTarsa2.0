@@ -1,4 +1,6 @@
 <script setup>
+import { Text } from 'vue';
+
 useSeoMeta({
   title: 'Sírkő készítés Budapesten',
   ogTitle: 'Sírkő készítés és kőfaragás',
@@ -18,7 +20,7 @@ useSeoMeta({
                <Card image-src="/sirko/sirko-kellekek/ko-mecsestarto.jpg" title="Kő mécsestartó" link="/sirko/sirko-kellekek/ko-mecsestarto" />
                <Card image-src="/sirko/sirko-kellekek/ko-viragtarto.jpg" title="Kő virágtartó" link="/sirko/sirko-kellekek/ko-viragtarto" />
                <Card image-src="/sirko/sirko-kellekek/bronz-sirko-kellekek.jpg" title="Bronz sírkő kellékek" link="/sirko/sirko-kellekek/bronz-sirko-kellekek" />
-               <Card image-src="/sirko/sirko-kellekek/sirfelirat.jpg" title="Sírfelirat" link="/sirko" />
+               <Card image-src="/sirko/sirko-kellekek/sirfelirat.jpg" title="Sírfelirat" link="/sirko/sirko-kellekek/sirfelirat" />
           </div>
 
      </LayoutsBaseLayout>

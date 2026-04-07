@@ -1,3 +1,12 @@
+<script setup>
+useSeoMeta({
+  title: 'Sírkő készítés Budapesten',
+  ogTitle: 'Sírkő készítés és kőfaragás',
+  description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns síremlékeket.',
+  ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
+})
+</script>
+
 <template>
      <LayoutsBaseLayout>
 

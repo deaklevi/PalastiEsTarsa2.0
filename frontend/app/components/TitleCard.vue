@@ -20,7 +20,7 @@ defineProps({
     <div class="flex-shrink-0 overflow-hidden rounded-sm">
       <img 
         :src="imageSrc" 
-        :alt="text" 
+        :alt="imageSrc" 
         class="h-40 w-48 object-cover"
         loading="lazy"
       >

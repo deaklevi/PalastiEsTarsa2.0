@@ -1,6 +1,7 @@
 <template>
     <LayoutsBaseHeader />
-    <main class="max-w-7xl mx-auto mt-10 px-4">
+    <main class="max-w-7xl mx-auto my-10 px-4">
         <slot />
     </main>
+    <LayoutsBaseFooter />
 </template>

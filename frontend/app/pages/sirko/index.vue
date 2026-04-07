@@ -16,8 +16,8 @@ useSeoMeta({
           <div class="flex flex-wrap gap-4 justify-center mt-5">
                <Card image-src="/sirko/urna-sirko.jpg" title="Urna sírkő" link="/sirko/urna-sirko"/>
                <Card image-src="/sirko/szimpla-sirko.jpg" title="Szimpla sírkő" link="/sirko/szimpla-sirko"/>
-               <Card image-src="/sirko/dupla-sirko.jpg" title="Dupla sírkő" link="/sirko"/>
-               <Card image-src="/sirko/kripta.jpg" title="Kripta sírkő" link="/sirko"/>
+               <Card image-src="/sirko/dupla-sirko.jpg" title="Dupla sírkő" link="/sirko/dupla-sirko"/>
+               <Card image-src="/sirko/kripta.jpg" title="Kripta sírkő" link="/sirko/kripta"/>
                <Card image-src="/sirko/akcios-sirko.jpg" title="Akcios sírkő" link="/sirko"/>
                <Card image-src="/sirko/marvany-sirko.jpg" title="Márvány sírkő" link="/sirko"/>
                <Card image-src="/sirko/meszko-sirko.jpg" title="Mészkő sírkő" link="/sirko"/>

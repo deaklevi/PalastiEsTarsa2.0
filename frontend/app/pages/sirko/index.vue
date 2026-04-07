@@ -23,7 +23,7 @@ useSeoMeta({
                <Card image-src="/sirko/meszko-sirko.jpg" title="Mészkő sírkő" link="/sirko/meszko-sirko"/>
                <Card image-src="/sirko/kulonleges-sirko.jpg" title="Különleges sírkő" link="/sirko/kulonleges-sirko"/>
                <Card image-src="/sirko/sirko-kellekek.jpg" title="Sírkő kellékek" link="/sirko/sirko-kellekek"/>
-               <Card image-src="/sirko/sirko-keszites.jpg" title="Sírkő készítés" link="/sirko"/>
+               <Card image-src="/sirko/sirko-keszites.jpg" title="Sírkő készítés" link="/sirko/sirko-keszites"/>
           </div>
 
      </LayoutsBaseLayout>

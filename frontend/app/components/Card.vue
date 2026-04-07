@@ -48,15 +48,3 @@ const linkProps = computed(() => {
     </div>
   </component>
 </template>
-
-<style scoped>
-/* v-html-en belüli span-ek (pl. kiemelt szavak) narancssárgák lesznek */
-:deep(span) {
-  @apply text-orange-500;
-}
-
-/* Kattintható kurzor kezelése */
-.group {
-  cursor: v-bind("link ? 'pointer' : 'default'");
-}
-</style>

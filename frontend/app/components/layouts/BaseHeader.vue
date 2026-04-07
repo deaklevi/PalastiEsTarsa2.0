@@ -12,7 +12,9 @@ const toggleMenu = () => {
     <header>
         <nav class="fixed top-0 left-0 w-full bg-[#0D0E0E] text-white z-50 shadow-md">
             <div class="max-w-7xl mx-auto flex justify-between items-center py-2 px-6 h-16">
-                <img src="/feher-logo.png" alt="Palásti Granit" class="h-10 z-50">
+                <NuxtLink to="/">
+                    <img src="/feher-logo.png" alt="Palásti Granit" class="h-10 z-50">
+                </NuxtLink>
 
                 <!-- Desktop Menu -->
                 <ul class="lg:flex hidden space-x-6 text-sm font-medium">

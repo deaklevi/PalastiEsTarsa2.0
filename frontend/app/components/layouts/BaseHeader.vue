@@ -24,7 +24,7 @@ const toggleMenu = () => {
                     <li><NuxtLink to="/" class="hover:text-orange-500 transition">Szolgáltatások</NuxtLink></li>
                     <li><NuxtLink to="/ko-anyagmintak" class="hover:text-orange-500 transition">Kő anyagminták</NuxtLink></li>
                     <li><NuxtLink to="/kapcsolat" class="hover:text-orange-500 transition">Kapcsolat</NuxtLink></li>
-                    <li><NuxtLink to="/" class="hover:text-orange-500 transition">Ajánlatkérés</NuxtLink></li>
+                    <li><NuxtLink to="/ajanlatkeres" class="hover:text-orange-500 transition">Ajánlatkérés</NuxtLink></li>
                 </ul>
 
                 <!-- Mobile Menu -->
@@ -64,7 +64,7 @@ const toggleMenu = () => {
                     <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Szolgáltatások</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/ko-anyagmintak" class="hover:text-orange-500">Kő anyagminták</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/kapcsolat" class="hover:text-orange-500">Kapcsolat</NuxtLink>
-                    <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Ajánlatkérés</NuxtLink>
+                    <NuxtLink @click="isMenuOpen = false" to="/ajanlatkeres" class="hover:text-orange-500">Ajánlatkérés</NuxtLink>
                 </div>
             </transition>
         </nav>

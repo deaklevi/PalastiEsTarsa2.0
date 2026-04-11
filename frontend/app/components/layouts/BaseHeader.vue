@@ -21,7 +21,7 @@ const toggleMenu = () => {
                     <li><NuxtLink to="/" class="hover:text-orange-500 transition">Főoldal</NuxtLink></li>
                     <li><NuxtLink to="/sirko" class="hover:text-orange-500 transition">Sírkő</NuxtLink></li>
                     <li><NuxtLink to="/epiteszet" class="hover:text-orange-500 transition">Építészet</NuxtLink></li>
-                    <li><NuxtLink to="/" class="hover:text-orange-500 transition">Szolgáltatások</NuxtLink></li>
+                    <li><NuxtLink to="/szolgaltatasok" class="hover:text-orange-500 transition">Szolgáltatások</NuxtLink></li>
                     <li><NuxtLink to="/ko-anyagmintak" class="hover:text-orange-500 transition">Kő anyagminták</NuxtLink></li>
                     <li><NuxtLink to="/egyeb-informaciok" class="hover:text-orange-500 transition">Egyéb információk</NuxtLink></li>
                     <li><NuxtLink to="/kapcsolat" class="hover:text-orange-500 transition">Kapcsolat</NuxtLink></li>
@@ -62,7 +62,7 @@ const toggleMenu = () => {
                     <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Főoldal</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/sirko" class="hover:text-orange-500">Sírkő</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/epiteszet" class="hover:text-orange-500">Építészet</NuxtLink>
-                    <NuxtLink @click="isMenuOpen = false" to="/" class="hover:text-orange-500">Szolgáltatások</NuxtLink>
+                    <NuxtLink @click="isMenuOpen = false" to="/szolgaltatasok" class="hover:text-orange-500">Szolgáltatások</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/ko-anyagmintak" class="hover:text-orange-500">Kő anyagminták</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/egyeb-informaciok" class="hover:text-orange-500">Egyéb információk</NuxtLink>
                     <NuxtLink @click="isMenuOpen = false" to="/kapcsolat" class="hover:text-orange-500">Kapcsolat</NuxtLink>

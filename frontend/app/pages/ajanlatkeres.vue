@@ -159,7 +159,7 @@ const showNotification = (text, css) => {
                   <div class="space-y-1">
                     <label class="label-style flex justify-between items-end">
                       Anyag 
-                      <NuxtLink to="/ko-anyagminta" target="_blank" class="text-[10px] text-orange-500 hover:underline">Anyagminták →</NuxtLink>
+                      <NuxtLink to="/ko-anyagmintak" target="_blank" class="text-[10px] text-orange-500 hover:underline">Anyagminták →</NuxtLink>
                     </label>
                     <input v-model="form.material" type="text" placeholder="Pl.: Mountain Pink gránit" class="input-modern" />
                   </div>
@@ -183,7 +183,7 @@ const showNotification = (text, css) => {
                   <div class="space-y-1">
                     <label class="label-style flex justify-between items-end">
                       Kiegészítők
-                      <NuxtLink to="/sirko-kellekek" target="_blank" class="text-[10px] text-orange-500 hover:underline">Kellékek →</NuxtLink>
+                      <NuxtLink to="/sirko/sirko-kellekek" target="_blank" class="text-[10px] text-orange-500 hover:underline">Kellékek →</NuxtLink>
                     </label>
                     <input v-model="form.extras" type="text" placeholder="Váza, mécses, kereszt..." class="input-modern" />
                   </div>

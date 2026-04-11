@@ -48,4 +48,5 @@ const infoCards = [
         </template>
       </HomeInfoCard>
   </LayoutsBaseLayout>
+  <LayoutsBaseFooter class="md:block"/>
 </template>

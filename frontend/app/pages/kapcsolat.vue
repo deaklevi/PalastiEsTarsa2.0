@@ -93,9 +93,9 @@ const showNotification = (text, css) => {
         
         <div class="space-y-8">
           <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-            <div class="flex items-center gap-4 mb-6">
-              <img class="h-16 w-auto" src="/Kapcsolat/emblema.png" alt="Embléma" />
-              <h1 class="text-xl font-bold text-slate-900 leading-tight">
+            <div class="md:flex items-center gap-4 mb-6">
+              <img class="h-16 w-auto mx-auto md:mx-0" src="/Kapcsolat/emblema.png" alt="Embléma" />
+              <h1 class="text-xl font-bold text-slate-900 leading-tight mt-5 md:mt-0 text-center md:text-left">
                 Palásti és Társa <br/> <span class="text-orange-600 uppercase text-sm tracking-widest">Kőfeldolgozó Kft.</span>
               </h1>
             </div>

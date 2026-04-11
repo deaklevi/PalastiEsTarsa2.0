@@ -18,8 +18,8 @@ useSeoMeta({
                <Card image-src="/ko-anyagmintak/granit.jpg" title="Gránit" link="/ko-anyagmintak/granit"/>
                <Card image-src="/ko-anyagmintak/marvany.jpg" title="Márvány" link="/ko-anyagmintak/marvany"/>
                <Card image-src="/ko-anyagmintak/meszko.jpg" title="Mészkő" link="/ko-anyagmintak/meszko"/>
-               <Card image-src="/ko-anyagmintak/kvarcit.jpg" title="Kvarcit" link="/ko-anyagmintak"/>
-               <Card image-src="/ko-anyagmintak/onyx.jpg" title="Onyx" link="/ko-anyagmintak"/>
+               <Card image-src="/ko-anyagmintak/kvarcit.jpg" title="Kvarcit" link="/ko-anyagmintak/kvarcit"/>
+               <Card image-src="/ko-anyagmintak/onyx.jpg" title="Onyx" link="/ko-anyagmintak/onyx"/>
           </div>
 
      </LayoutsBaseLayout>

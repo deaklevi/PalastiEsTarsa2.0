@@ -23,7 +23,7 @@
           <div class="flex-shrink-0 w-24 h-24  overflow-hidden rounded-full border-2 border-orange-100 shadow-sm">
             <img 
               :src="item.image" 
-              class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" 
+              class="w-full h-full object-cover md:grayscale group-hover:grayscale-0 transition-all duration-500" 
               alt="szolgáltatás"
             />
           </div>

@@ -1,5 +1,11 @@
 <script setup>
-// Nuxt SEO meta adatok
+useSeoMeta({
+  title: 'Sírkő készítés Budapesten',
+  ogTitle: 'Sírkő készítés és kőfaragás',
+  description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns síremlékeket.',
+  ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
+})
+
 useSeoMeta({
   title: 'Hasznos információk – Palásti és Társa Kft.',
   description: 'Minden, amit a síremlékekről, a gránit tulajdonságairól és a temetkezési kultúráról tudni érdemes. Szakmai tanácsok és gyakori kérdések.',

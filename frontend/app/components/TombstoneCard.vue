@@ -113,7 +113,7 @@ onUnmounted(() => {
             <div class="w-full lg:w-3/5 bg-white p-2 md:p-6 flex items-center justify-center min-h-[250px] lg:min-h-0">
               <img 
                 :src="baseUrl + selectedItem.image_url" 
-                :alt="'Sírkő készítés - ' + item.name + ' (' + item.tombstone_id + ')'"
+                :alt="'Sírkő készítés - ' + selectedItem.name + ' (' + selectedItem.tombstone_id + ')'"
                 class="max-w-full max-h-[45vh] lg:max-h-[75vh] object-contain block" 
               />
             </div>

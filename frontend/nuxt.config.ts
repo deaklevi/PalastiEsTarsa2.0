@@ -1,17 +1,29 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss'],
+  
+  // 1. Modulok
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
+
+  // 2. Új, szabványos sitemap konfiguráció
+  site: {
+    url: 'https://palasti.hu',
+    name: 'Palásti Gránit',
+  },
+
+  sitemap: {
+    // Itt nem kell hostname, a modul automatikusan a `site.url`-t használja
+    enabled: true,
+  },
+
+  // 3. Alkalmazás beállítások
   app: {
     head: {
       htmlAttrs: { lang: 'hu' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      titleTemplate: '%s - Palásti Gránit', // Az %s helyére kerül az adott oldal címe
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      ],
+      titleTemplate: '%s - Palásti Gránit',
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       meta: [
         { property: 'og:image', content: 'https://palastigranit.hu/og-logo.png' },
         { property: 'og:type', content: 'website' },

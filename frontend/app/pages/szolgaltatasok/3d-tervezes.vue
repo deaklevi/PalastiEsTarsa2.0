@@ -7,13 +7,8 @@
       </div>
       
       <h1 class="text-4xl md:text-6xl font-black text-gray-900 leading-none">
-        3D <span class="text-gray-400">látványtervezés</span>
+        3D látványtervezés
       </h1>
-      
-      <p class="mt-8 text-gray-500 text-lg leading-relaxed max-w-2xl">
-        Segítséget nyújtunk ügyfeleinknek a végső döntésben. Precíz, körbejárható 3D modellek segítségével 
-        már a gyártás előtt pontos képet kaphat a leendő síremlékről.
-      </p>
     </div>
 
     <div class="max-w-[1400px] mx-auto px-6 py-16 md:py-24">

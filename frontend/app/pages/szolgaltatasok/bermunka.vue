@@ -6,12 +6,8 @@
         <span class="font-bold uppercase tracking-widest text-xs">Szolgáltatások</span>
       </div>
       <h1 class="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
-        Bérmunka <span class="text-gray-400">&</span> árlista
+        Bérmunka
       </h1>
-      <p class="mt-6 text-gray-500 max-w-2xl text-lg leading-relaxed">
-        Gépi, műszaki és szakmai felkészültségünknek köszönhetően hozott anyagból is vállalunk 
-        megmunkálást: darabolást, kalibrálást, fényezést és egyedi felületkezelést.
-      </p>
     </header>
 
     <main class="max-w-6xl mx-auto px-6 py-16 md:pb-52">

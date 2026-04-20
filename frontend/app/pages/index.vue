@@ -38,15 +38,14 @@ const infoCards = [
      <HomeInfoCard :items="infoCards">
         <template #header>
           <h2 class="text-4xl font-serif font-bold mb-4">Palásti és Társa kft.</h2>
-          <p class="text-gray-500 italic"> A Kő – legyen az gránit, márvány vagy mészkő – az életünk! A kőfeldolgozás valamennyi területén megálljuk a helyünket. 1954 óta rengeteg tapasztalatot gyűjtöttünk az egyedi kézműves síremlékek, kripták, emlékművek, szökőkutak és minden egyéb épülethez tartozó kőburkolat, kőtermék készítésében, kerüljön az kültérre vagy beltérre.
-
-          Számtalan munkát készítettünk köztérre és magánszemélyek otthonába. Készítettünk 390db fürdőszoba -, recepciós - és közösségi illemhelységekbe egyéb gránit pultot a Budapest Hilton szállodának.
-                    
-          Irodaházaknak homlokzat-, padló- ill. lépcsőburkolatokat. Családi házakba konyhapultot, külső- és belső ablakpárkányt, kerítés fedkövet. 1996 és 2006 között folyamatosan exportáltunk minimal és exluzív formavilágú sírkövet Dániába, Hollandiába, Ausztriába és Németországba.
-                    
-          A hazai piacra szánt sírkő termékeink a szolíd árfekvésűtől az egyedi, prémium kategóriáig bezárólag, széles választékban állnak megrendelőink rendelkezésre. Ezáltal mindenki megtalálhatja az elképzelése és lehetőségéhez leginkább illő megoldásokat. Magától értetődő, hogy a hibátlan kőtermék csak a megfelelő minőségű alapanyagból készülhet.</p>
+          <p class="text-gray-500 italic">
+             A Kő – legyen az gránit, márvány vagy mészkő – az életünk! A kőfeldolgozás valamennyi területén megálljuk a helyünket. 
+             1954 óta rengeteg tapasztalatot gyűjtöttünk az egyedi kézműves síremlékek, kripták, emlékművek, szökőkutak és minden egyéb 
+             épülethez tartozó kőburkolat, kőtermék készítésében, kerüljön az kültérre vagy beltérre. 
+             <br><br>
+             Számtalan munkát készítettünk köztérre és magánszemélyek otthonába. Készítettünk 390db fürdőszoba -, recepciós - és közösségi illemhelységekbe egyéb gránit pultot a Budapest Hilton szállodának. Irodaházaknak homlokzat-, padló- ill. lépcsőburkolatokat. Családi házakba konyhapultot, külső- és belső ablakpárkányt, kerítés fedkövet. 1996 és 2006 között folyamatosan exportáltunk minimal és exluzív formavilágú sírkövet Dániába, Hollandiába, Ausztriába és Németországba. A hazai piacra szánt sírkő termékeink a szolíd árfekvésűtől az egyedi, prémium kategóriáig bezárólag, széles választékban állnak megrendelőink rendelkezésre. Ezáltal mindenki megtalálhatja az elképzelése és lehetőségéhez leginkább illő megoldásokat. Magától értetődő, hogy a hibátlan kőtermék csak a megfelelő minőségű alapanyagból készülhet. 
+          </p>
         </template>
       </HomeInfoCard>
   </LayoutsBaseLayout>
-  <LayoutsBaseFooter class="md:block"/>
 </template>

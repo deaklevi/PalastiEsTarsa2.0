@@ -92,7 +92,7 @@ const showNotification = (text, css) => {
 
 <template>
   <LazyLayoutsBaseLayout>
-    <div class="bg-gray-50 min-h-screen pb-20">
+    <div class="min-h-screen pb-20">
       
       <div class="bg-white border-b border-gray-200 py-12 mb-10">
         <div class="container mx-auto px-6 lg:px-12 text-center md:text-left">

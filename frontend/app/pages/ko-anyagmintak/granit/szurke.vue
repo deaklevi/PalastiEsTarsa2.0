@@ -1,8 +1,8 @@
 <script setup>
 useSeoMeta({
-  title: 'Sírkő készítés Budapesten',
+  title: 'Szürke gránit',
   ogTitle: 'Sírkő készítés és kőfaragás',
-  description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns síremlékeket.',
+  description: 'A síremlék a szeretet és tisztelet maradandó kifejezése. Hiszünk abban, hogy az elhunyt emléke méltó, örökké tartó keretet érdemel, ezért dolgozunk a természet legnemesebb kőzeteivel.',
   ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
 })
 </script>

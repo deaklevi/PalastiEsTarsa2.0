@@ -77,7 +77,7 @@ onUnmounted(() => {
         <div class="bg-white border-2 border-orange-600 p-1 shadow-sm transition-transform duration-300 group-hover:scale-105 w-full h-36 md:h-40 flex items-center justify-center overflow-hidden">
           <img 
             :src="baseUrl + item.image_url" 
-            :alt="item.name"
+            :alt="`Gránit építészet és kőfaragás - ${item.name} (Sorszám: ${item.order})`"
             class="min-w-full max-h-full object-contain block" 
             loading="lazy"
           />
@@ -111,7 +111,7 @@ onUnmounted(() => {
             <div class="w-full lg:w-3/5 bg-white p-2 md:p-6 flex items-center justify-center min-h-[250px] lg:min-h-0">
               <img 
                 :src="baseUrl + selectedItem.image_url" 
-                :alt="selectedItem.name" 
+                :alt="`Gránit építészet és kőfaragás - ${selectedItem.name} (Sorszám: ${selectedItem.order})`" 
                 class="max-w-full max-h-[45vh] lg:max-h-[75vh] object-contain block" 
               />
             </div>

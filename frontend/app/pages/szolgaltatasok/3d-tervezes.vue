@@ -48,10 +48,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Sírkő készítés Budapesten | Palásti és Társa Kft.',
-  ogTitle: 'Sírkő készítés és profi kőfaragás',
-  description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns síremlékeket, gránit konyhapultokat és burkolatokat.',
-  ogDescription: 'Minőségi gránit, márvány és mészkő munkák garanciával, 1954 óta.',
+  title: '3D látványtervezés',
+  ogTitle: 'Sírkő készítés és kőfaragás',
+  description: 'A szolgáltatások oldalon bemutatjuk a síremlék és egyéb építészeti munkálatokhoz tartozó tevékenységi körünket, amivel professzionálisan eleget tehetünk az egyre inkább gyakori különleges igényeknek.',
+  ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
 })
 
 

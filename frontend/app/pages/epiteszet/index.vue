@@ -1,9 +1,9 @@
 <script setup>
 useSeoMeta({
-  title: 'Bútorok készítés Budapesten',
-  ogTitle: 'Bútorok készítés és egyedi tervezés',
-  description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns bútorokat.',
-  ogDescription: 'Minőségi gránitból és egyéb anyagból készült bútorok Garanciával.',
+  title: 'Építészet',
+  ogTitle: 'Sírkő készítés és kőfaragás',
+  description: 'Az építészetkihagyhatatlan szerkezeti és díszítő eleme, évezredek óta a kő. Következésképp egyrészről a művészetek egyik ága (alkalmazott művészet), másrészről mérnöki tudomány, technológiai szaktudomány.',
+  ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
 })
 </script>
 

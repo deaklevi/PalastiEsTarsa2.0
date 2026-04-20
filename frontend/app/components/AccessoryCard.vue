@@ -6,11 +6,6 @@ const props = defineProps({
   group: { type: String, required: true }
 })
 
-// SEO & Meta (Opcionális, ha külön oldalon van)
-useSeoMeta({
-  title: 'Kiegészítők - Palásti és Társa',
-})
-
 const baseUrl = 'https://palasti-laravel.saavatar.xyz'
 const selectedItem = ref(null)
 const currentIndex = ref(0)
@@ -82,7 +77,7 @@ onUnmounted(() => {
         <div class="bg-white border-2 border-orange-600 p-1 shadow-sm transition-transform duration-300 group-hover:scale-105 w-full aspect-square flex items-center justify-center overflow-hidden">
           <img 
             :src="baseUrl + item.image_url" 
-            :alt="item.name"
+            :alt="`${item.name} - Sírkő kiegészítő (${item.accessory_id})`"
             class="max-w-full max-h-full object-contain block" 
             loading="lazy"
           />
@@ -116,7 +111,7 @@ onUnmounted(() => {
             <div class="w-full lg:w-3/5 bg-white p-4 md:p-8 flex items-center justify-center min-h-[250px] lg:min-h-0">
               <img 
                 :src="baseUrl + selectedItem.image_url" 
-                :alt="selectedItem.name" 
+                :alt="`${item.name} - Sírkő kiegészítő (${item.accessory_id})`"
                 class="max-w-full max-h-[40vh] lg:max-h-[70vh] object-contain block" 
               />
             </div>

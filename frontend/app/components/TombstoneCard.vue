@@ -1,10 +1,10 @@
 <script setup>
-useSeoMeta({
-  title: 'Sírkő készítés Budapesten',
-  ogTitle: 'Sírkő készítés és kőfaragás',
-  description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns síremlékeket.',
-  ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
-})
+// useSeoMeta({
+//   title: 'Sírkő készítés Budapesten',
+//   ogTitle: 'Sírkő készítés és kőfaragás',
+//   description: 'Több évtizedes tapasztalattal kínálunk tartós és elegáns síremlékeket.',
+//   ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
+// })
 
 import { ref, computed, onUnmounted, watch } from 'vue'
 
@@ -79,6 +79,7 @@ onUnmounted(() => {
         <div class="bg-white border-2 border-orange-600 p-1 shadow-sm transition-transform duration-300 group-hover:scale-105">
           <img 
             :src="baseUrl + item.image_url" 
+            :alt="'Sírkő készítés - ' + item.name + ' (' + item.tombstone_id + ')'"
             class="w-full h-auto max-h-48 md:max-h-56 object-contain block" 
             loading="lazy"
           />
@@ -112,7 +113,7 @@ onUnmounted(() => {
             <div class="w-full lg:w-3/5 bg-white p-2 md:p-6 flex items-center justify-center min-h-[250px] lg:min-h-0">
               <img 
                 :src="baseUrl + selectedItem.image_url" 
-                :alt="selectedItem.name" 
+                :alt="'Sírkő készítés - ' + item.name + ' (' + item.tombstone_id + ')'"
                 class="max-w-full max-h-[45vh] lg:max-h-[75vh] object-contain block" 
               />
             </div>

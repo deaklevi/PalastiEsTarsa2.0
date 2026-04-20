@@ -26,7 +26,7 @@ export default defineNuxtConfig({
       titleTemplate: '%s - Palásti Gránit',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       meta: [
-        { name: 'keywords', content: 'sírkőkészítés, sírkő felújítás, gránit sírkő, márvány sírkő, sírbolt, urnakő, sírkő tisztítás, sírkő, kripta, urna, emlékmű, emlékmű, konyhapult gránit, konyhapult, kő bútor' },
+        { name: 'keywords', content: 'sírkő, sírkő felújítás, gránit sírkő, márvány sírkő, urna, sírkő tisztítás, kripta, emlékmű, konyhapult, kő bútor, Budapest, Csepel' },
         { name: 'author', content: 'BotanicBrothers Team' },
         // Open Graph
         { property: 'og:type', content: 'website' },

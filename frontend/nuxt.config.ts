@@ -26,11 +26,12 @@ export default defineNuxtConfig({
       titleTemplate: '%s - Palásti Gránit',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       meta: [
-        { property: 'og:image', content: 'https://palastigranit.hu/og-logo.png' },
+        { name: 'keywords', content: 'sírkőkészítés, sírkő felújítás, gránit sírkő, márvány sírkő, sírbolt, urnakő, sírkő tisztítás, sírkő, kripta, urna, emlékmű, emlékmű, konyhapult gránit, konyhapult, kő bútor' },
+        { name: 'author', content: 'BotanicBrothers Team' },
+        // Open Graph
         { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: 'https://palastigranit.hu/og-logo.png' }
-      ]
+        { property: 'og:image', content: 'https://botanicbrothers.com/botanicbrothers.ico' },
+      ],
     }
   }
 })

@@ -14,6 +14,7 @@ export default defineNuxtConfig({
   sitemap: {
     // Itt nem kell hostname, a modul automatikusan a `site.url`-t használja
     enabled: true,
+    discoverImages: true, // Megpróbálja megkeresni a képeket a tartalomban
   },
 
   // 3. Alkalmazás beállítások

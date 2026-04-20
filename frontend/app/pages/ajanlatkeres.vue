@@ -268,7 +268,7 @@ const showNotification = (text, css) => {
 }
 
 .input-modern {
-  @apply w-full rounded-lg border border-slate-800 p-3 text-white bg-slate-900/50 focus:bg-slate-900 focus:ring-2 focus:ring-orange-600/30 focus:border-orange-600 focus:outline-none transition-all duration-200 placeholder:text-slate-600 text-sm;
+  @apply w-full rounded-lg border border-slate-800 p-3 text-white bg-slate-900/50 focus:bg-slate-900 focus:ring-2 focus:ring-orange-600/30 focus:border-orange-600 focus:outline-none transition-all duration-200 placeholder:text-slate-400 text-sm;
 }
 
 /* Select nyíl színe sötét módban */

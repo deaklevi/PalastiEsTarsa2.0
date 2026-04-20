@@ -29,7 +29,7 @@ onUnmounted(() => { if (timer) clearInterval(timer) })
         <div v-if="currentSlide === index" class="absolute inset-0 w-full h-full">
           <img 
             :src="img" 
-            class="w-full h-full object-cover brightness-[0.35] transition-transform duration-[12000ms] ease-out scale-110"
+            class="w-full h-full object-cover brightness-[0.75] transition-transform duration-[12000ms] ease-out scale-110"
             :class="{ 'scale-100': currentSlide === index }"
             alt="Palásti Gránit háttérkép"
           />

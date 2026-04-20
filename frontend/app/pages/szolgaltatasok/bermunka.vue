@@ -1,3 +1,18 @@
+<script setup>
+// SEO beállítások
+useSeoMeta({
+  title: 'Bérmunka – Palásti és Társa Kft.',
+  ogTitle: 'Bérmunka - Sírkő készítés és kőfaragás',
+  description: 'Profi kőmegmunkálási szolgáltatások: fűrészelés, csiszolás és gravírozás modern technológiával.',
+})
+
+// Adatlekérés az API-ból
+const { data: works, pending, error } = await useFetch('https://palasti-laravel.saavatar.xyz/api/works', {
+  // Opcionális: átalakíthatod az adatot, ha az API-ban mások a kulcsnevek
+  transform: (res) => res.data || res 
+})
+</script>
+
 <template>
   <LayoutsBaseLayout>
     <header class="max-w-6xl mx-auto px-6 pt-16 md:pt-24">
@@ -11,7 +26,15 @@
     </header>
 
     <main class="max-w-6xl mx-auto px-6 py-16 md:pb-52">
-      <div class="overflow-hidden rounded-2xl shadow-xl shadow-gray-200 border border-gray-100 bg-white">
+      <div v-if="pending" class="flex justify-center py-20">
+        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-600"></div>
+      </div>
+
+      <div v-else-if="error" class="bg-red-50 text-red-600 p-6 rounded-xl border border-red-100 text-center">
+        Hiba történt az adatok betöltésekor. Kérjük, próbálja később!
+      </div>
+
+      <div v-else class="overflow-hidden rounded-2xl shadow-xl shadow-gray-200 border border-gray-100 bg-white">
         <div class="overflow-x-auto">
           <table class="w-full text-left border-collapse">
             <thead>
@@ -25,7 +48,7 @@
             <tbody class="divide-y divide-gray-100">
               <tr 
                 v-for="(work, index) in works" 
-                :key="index" 
+                :key="work.id || index" 
                 class="hover:bg-orange-50 transition-colors duration-150 group"
               >
                 <td class="px-8 py-4 text-gray-900 font-medium">
@@ -39,7 +62,16 @@
                 </td>
                 <td class="px-8 py-4 text-right">
                   <span class="text-orange-600 font-bold text-lg">{{ work.price }}</span>
-                  <span class="text-gray-400 text-xs ml-1 font-medium">Ft/m²</span>
+                                
+                  <span class="text-gray-400 text-xs ml-1 font-medium">
+                    {{ index >= works.length - 3 ? 'Ft/fm' : 'Ft/m²' }}
+                  </span>
+                </td>
+              </tr>
+              
+              <tr v-if="!works || works.length === 0">
+                <td colspan="4" class="px-8 py-10 text-center text-gray-400 italic">
+                  Jelenleg nincsenek elérhető árak a listában.
                 </td>
               </tr>
             </tbody>
@@ -58,27 +90,7 @@
   </LayoutsBaseLayout>
 </template>
 
-<script setup>
-useSeoMeta({
-  title: 'Bérmunka',
-  ogTitle: 'Sírkő készítés és kőfaragás',
-  description: 'A szolgáltatások oldalon bemutatjuk a síremlék és egyéb építészeti munkálatokhoz tartozó tevékenységi körünket, amivel professzionálisan eleget tehetünk az egyre inkább gyakori különleges igényeknek.',
-  ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
-})
-
-// Itt definiáljuk az adatokat közvetlenül, store nélkül
-const works = [
-  { type: 'Tömbfűrészelés', stone_type: 'Gránit / Márvány', size: '200x100 cm-ig', price: '12 500' },
-  { type: 'Méretre vágás', stone_type: 'Természetes kövek', size: 'egyedi', price: '4 800' },
-  { type: 'Felületcsiszolás (fényes)', stone_type: 'Gránit', size: 'táblás', price: '8 900' },
-  { type: 'Égetés / Flammolás', stone_type: 'Gránit (csúszásmentes)', size: 'kültéri', price: '6 200' },
-  { type: 'Kalibrálás', stone_type: 'Mészkő / Márvány', size: 'vastagság szerint', price: '3 500' },
-  { type: 'Lézergravírozás', stone_type: 'Fekete gránit', size: 'max 60x40 cm', price: '15 000' }
-]
-</script>
-
 <style scoped>
-/* Egyéni görgetősáv a táblázatnak mobilon */
 .overflow-x-auto::-webkit-scrollbar {
   height: 6px;
 }

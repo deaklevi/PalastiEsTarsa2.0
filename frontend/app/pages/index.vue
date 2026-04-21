@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: 'Sírkő készítés Budapesten',
+  title: 'Sírkő készítés országosan',
   ogTitle: 'Sírkő készítés és profi kőfaragás',
   description: 'A Kő – legyen az gránit, márvány vagy mészkő – az életünk! A kőfeldolgozás valamennyi területén megálljuk a helyünket.',
   ogDescription: 'Minőségi gránit, márvány és mészkő munkák garanciával, 1954 óta.',

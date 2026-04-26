@@ -4,6 +4,7 @@ useSeoMeta({
   ogTitle: 'Sírkő készítés és kőfaragás',
   description: 'A síremlék a szeretet és tisztelet maradandó kifejezése. Hiszünk abban, hogy az elhunyt emléke méltó, örökké tartó keretet érdemel, ezért dolgozunk a természet legnemesebb kőzeteivel.',
   ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
+  keywords: 'Africa Red, Amadeus, Aurora, Baltic Brown, Baltic Green, Bararp, Halmstad, Belorizont, Bianco Tarn Claire, Blue Orissa, Blue Vizag, Brass Blue, Cristal G603, Giallo Ornamentale, Giallo Santa Cecilia, Giallo Veneciano, Himalaya Blue, Indian Aurora, Juparana Columbo, Juparana Pink, Kasmir White, Kinawa, Labrador Blue, Labrador Black, Labrador Silver, Labrador Antique, Multicolor, Nero Assuloto Black, Nero Impala, Nero Zimbabwe, New Impala, New Paradiso, New Red, Oliv, Green, Paradiso Classico, River Gold, Rosabeta, Rosso Vanga, Ivö Red, Samba, Silver Cloud, Verde Eucalipta, Verde Gloria Dark, Verde Gloria Light, Verde Laguna, Verde Lavras, Verde Marina, Verde San Francisco, Ruschita, Ruskica, Jura mészkő, Baschioi, Podeni, Carpinis, Geoagiu'
 })
 </script>
 

@@ -4,6 +4,7 @@ useSeoMeta({
   ogTitle: 'Sírkő készítés és profi kőfaragás',
   description: 'A Kő – legyen az gránit, márvány vagy mészkő – az életünk! A kőfeldolgozás valamennyi területén megálljuk a helyünket.',
   ogDescription: 'Minőségi gránit, márvány és mészkő munkák garanciával, 1954 óta.',
+  keywords: 'Sírkő, síremlék, emlékmű, építészet, kőburkolat, lézergravírozás, 3D-s tervezés, viszonteladóknak, gránit, márvány, mészkő'
 })
 
 // Példa adatok a kártyákhoz

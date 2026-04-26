@@ -4,6 +4,7 @@ useSeoMeta({
   ogTitle: 'Sírkő készítés és kőfaragás',
   description: 'A szolgáltatások oldalon bemutatjuk a síremlék és egyéb építészeti munkálatokhoz tartozó tevékenységi körünket, amivel professzionálisan eleget tehetünk az egyre inkább gyakori különleges igényeknek.',
   ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
+  keywords: 'Lézergravírozás, gránit, márvány, mészkő'
 })
 </script>
 

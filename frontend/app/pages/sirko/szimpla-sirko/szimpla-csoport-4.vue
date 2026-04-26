@@ -4,6 +4,7 @@ useSeoMeta({
   ogTitle: 'Sírkő készítés és kőfaragás',
   description: 'A sírkő a szeretet és tisztelet kifejezése elhunyt hozzátartozónk iránt, egyben jelöli végső nyughelyét; egy utolsó tisztelgés annak emléke előtt, aki már nem lehet velünk.',
   ogDescription: 'Minőségi gránit, márvány és mészkő munkák Garanciával.',
+  keywords: 'Szimpla, egyes, sírkő, síremlék, gránit, márvány, mészkő'
 })
 </script>
 

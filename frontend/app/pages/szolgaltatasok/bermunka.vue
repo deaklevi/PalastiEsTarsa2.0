@@ -4,6 +4,7 @@ useSeoMeta({
   title: 'Bérmunka – Palásti és Társa Kft.',
   ogTitle: 'Bérmunka - Sírkő készítés és kőfaragás',
   description: 'Profi kőmegmunkálási szolgáltatások: fűrészelés, csiszolás és gravírozás modern technológiával.',
+  keywords: 'Kőfeldolgozás, bérvágás, bércsiszolás, bérmunka, gránit, márvány, mészkő'
 })
 
 // Adatlekérés az API-ból

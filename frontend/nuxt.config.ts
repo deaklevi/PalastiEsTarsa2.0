@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   // 1. Modulok
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
 
-  // 2. Új, szabványos sitemap konfiguráció
+  // 2. SEO és Sitemap
   site: {
     url: 'https://palasti.hu',
     name: 'Palásti Gránit',
@@ -14,28 +14,24 @@ export default defineNuxtConfig({
   sitemap: {
     enabled: true,
     discoverImages: true,
+    zeroRuntime: true // Szuper, ez passzol a statikus generáláshoz
   },
 
-  // EXPERIMENTAL: Itt tiltjuk le a payload generálást
+  // 3. Optimalizáció a statikus kimenethez
   experimental: {
-    payloadExtraction: false
+    payloadExtraction: true // Ez javítja ki a korábbi WARN üzenetet
   },
 
-  // ROUTE RULES: Csak akkor használjon ISR-t, ha éles (production) módban vagy!
+  // 4. Útvonal szabályok
+  // Ha 'npm run generate'-et használsz, az ISR helyett érdemesebb 
+  // csak a cache-elést vagy a prerender-t finomhangolni (ha szükséges).
   routeRules: {
-    '/**': import.meta.dev ? {} : { isr: true }
+    // Statikus generálásnál ez a rész elhagyható, 
+    // vagy használhatod sima prerender-re:
+    '/**': { prerender: true } 
   },
 
-  // NITRO: Kényszerítsük a memóriában való tárolást fejlesztéskor
-  nitro: {
-    devStorage: {
-      cache: {
-        driver: 'memory'
-      }
-    }
-  },
-
-  // 3. Alkalmazás beállítások
+  // 5. Alkalmazás beállítások
   app: {
     head: {
       htmlAttrs: { lang: 'hu' },

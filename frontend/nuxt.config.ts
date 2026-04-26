@@ -12,14 +12,27 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    // Itt nem kell hostname, a modul automatikusan a `site.url`-t használja
     enabled: true,
-    discoverImages: true, // Megpróbálja megkeresni a képeket a tartalomban
+    discoverImages: true,
   },
 
+  // EXPERIMENTAL: Itt tiltjuk le a payload generálást
+  experimental: {
+    payloadExtraction: false
+  },
+
+  // ROUTE RULES: Csak akkor használjon ISR-t, ha éles (production) módban vagy!
   routeRules: {
-    // Kényszerítsük ki a perjel mentességet a tisztább URL-ekért
-    '/**': { isr: true }, 
+    '/**': import.meta.dev ? {} : { isr: true }
+  },
+
+  // NITRO: Kényszerítsük a memóriában való tárolást fejlesztéskor
+  nitro: {
+    devStorage: {
+      cache: {
+        driver: 'memory'
+      }
+    }
   },
 
   // 3. Alkalmazás beállítások
@@ -32,7 +45,6 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       meta: [
         { name: 'author', content: 'Palásti Gránit' },
-        // Open Graph
         { property: 'og:type', content: 'website' },
         { property: 'og:image', content: 'https://www.palasti.hu/favicon.ico' },
       ],

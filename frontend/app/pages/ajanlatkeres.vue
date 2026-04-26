@@ -142,7 +142,7 @@ const showNotification = (text, css) => {
                   </div>
                   <div class="space-y-1">
                     <label class="label-style">Helyszín (Város/Temető)</label>
-                    <input v-model="form.cemetery" type="text" placeholder="Melyik temetőben lesz?" class="input-modern" />
+                    <input v-model="form.cemetery" type="text" placeholder="Melyik temető?" class="input-modern" />
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@ const showNotification = (text, css) => {
                       Anyag 
                       <NuxtLink to="/ko-anyagmintak" target="_blank" class="text-[10px] text-orange-500 hover:underline">Anyagminták →</NuxtLink>
                     </label>
-                    <input v-model="form.material" type="text" placeholder="Pl.: Mountain Pink gránit" class="input-modern" />
+                    <input v-model="form.material" type="text" placeholder="Pl.: Verde San Francisco gránit" class="input-modern" />
                   </div>
 
                   <div class="space-y-1">

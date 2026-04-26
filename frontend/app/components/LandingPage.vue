@@ -60,13 +60,13 @@ onUnmounted(() => { if (timer) clearInterval(timer) })
           <NuxtLink to="/sirko" 
             class="relative group overflow-hidden px-10 py-4 bg-orange-600 text-white rounded-sm transition-all duration-300 hover:bg-orange-700 active:scale-95 shadow-lg"
           >
-            <span class="relative z-10 font-bold uppercase text-[11px] tracking-[0.2em]">Munkáink megtekintése</span>
+            <span class="relative z-10 font-bold uppercase text-[11px] tracking-[0.2em]">Elkészült síremlékek megtekintése</span>
           </NuxtLink>
 
-          <NuxtLink to="/ajanlatkeres" 
+          <NuxtLink to="/epiteszet" 
             class="group px-10 py-4 border border-white/20 bg-white/5 rounded-sm text-white transition-all duration-300 hover:bg-white hover:text-black active:scale-95 backdrop-blur-md"
           >
-            <span class="font-bold uppercase text-[11px] tracking-[0.2em]">Ingyenes ajánlatkérés</span>
+            <span class="font-bold uppercase text-[11px] tracking-[0.2em]">Épitészeti munkáink megtekintése</span>
           </NuxtLink>
         </div>
 

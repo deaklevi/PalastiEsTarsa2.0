@@ -15,7 +15,7 @@ useSeoMeta({
 })
 
 // Konfiguráció
-const baseUrl = (import.meta.env.VITE_APP_URL || 'https://palasti-laravel.saavatar.xyz').replace(/\/$/, '')
+const baseUrl = (import.meta.env.VITE_APP_URL || 'https://palasti-laravel.saastemp.top').replace(/\/$/, '')
 
 const isLoading = ref(false)
 const showMessage = ref(false)

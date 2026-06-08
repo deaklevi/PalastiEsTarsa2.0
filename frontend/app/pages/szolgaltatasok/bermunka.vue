@@ -8,7 +8,7 @@ useSeoMeta({
 })
 
 // Adatlekérés az API-ból
-const { data: works, pending, error } = await useFetch('https://palasti-laravel.saavatar.xyz/api/works', {
+const { data: works, pending, error } = await useFetch('https://palasti-laravel.saastemp.top/api/works', {
   // Opcionális: átalakíthatod az adatot, ha az API-ban mások a kulcsnevek
   transform: (res) => res.data || res 
 })

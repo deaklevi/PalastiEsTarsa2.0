@@ -17,7 +17,7 @@ const props = defineProps({
 })
 
 // Alap URL beállítása (a környezeti változóból, vagy fallback)
-const baseUrl = import.meta.env.VITE_APP_URL || 'https://palasti-laravel.saastemp.top'
+const baseUrl = import.meta.env.NUXT_PUBLIC_API_URL || 'https://palastibackend.hu'
 const selectedItem = ref(null)
 const currentIndex = ref(0)
 

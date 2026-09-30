@@ -7,7 +7,7 @@ useSeoMeta({
   keywords: 'Kőfeldolgozás, bérvágás, bércsiszolás, bérmunka, gránit, márvány, mészkő'
 })
 
-const baseUrl = import.meta.env.VITE_APP_URL || 'https://palasti-laravel.saastemp.top'
+const baseUrl = import.meta.env.NUXT_PUBLIC_API_URL || 'https://palastibackend.hu'
 
 // Adatlekérés az API-ból
 const { data: works, pending, error } = await useFetch(`${baseUrl}/api/works`, {

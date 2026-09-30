@@ -13,7 +13,7 @@ useSeoMeta({
   description: 'Vegye fel velünk a kapcsolatot! Egyedi síremlékek és kőfeldolgozás 1954 óta.',
 })
 
-const baseUrl = (import.meta.env.VITE_APP_URL || 'https://palasti-laravel.saastemp.top').replace(/\/$/, '')
+const baseUrl = (import.meta.env.NUXT_PUBLIC_API_URL || 'https://palastibackend.hu').replace(/\/$/, '')
 
 const isLoading = ref(false)
 const showMessage = ref(false)
